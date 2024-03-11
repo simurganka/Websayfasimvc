@@ -1,0 +1,67 @@
+
+body{
+  margin:0;
+  padding:0;
+  background-image: url('Inazuma.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family:sans-serif;
+
+}
+.loginbox{
+  position: absolute;
+  top:60%;
+  left:10%;
+  transform: translate(-50%,-50%);
+  width: 350px;
+  height: 420px;
+  padding: 80px 40px;
+  box-sizing:border-box;
+  background: rgba(0,0,0,0,5);
+}
+.user{
+  width: 100px;
+  height: 100px;
+  overflow:hidden;
+  top: calc(-100px/2);
+  
+}
+.form-signin .btn {
+  width: 100%; 
+  padding: 12px 20px; 
+  font-size: 18px;
+  border-radius: 20px; 
+  border: none; 
+  background-color: #781494; 
+  color: white; 
+  margin-top: 20px; 
+  cursor: pointer; 
+}
+
+.form-signin .btn:hover {
+  background-color: #8b25d9; 
+}
+.form-signin {
+  position: absolute;
+  width: 300px;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+  top: 0; 
+  right: 0; 
+  bottom: 70px;
+  left: auto; 
+  text-align: center;
+  background-color: rgba(233, 186, 248, 0.7);
+  border-radius: 10px;
+}
+
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 20px; 
+}
+

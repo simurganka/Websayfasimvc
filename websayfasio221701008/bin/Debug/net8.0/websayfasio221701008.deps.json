@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "websayfasio221701008/1.0.0": {
+        "runtime": {
+          "websayfasio221701008.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "websayfasio221701008/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

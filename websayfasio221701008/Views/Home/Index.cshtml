@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<html xmlns="https://www.w3.org/1999/xhtml">
+ <head runat="server">
+    <title></title>
+ </head>
+<body>
+<div class="loginbox">
+    <form class="form-signin" asp-action="Index">
+        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+        <input type="text" id="Username" name="Username" class="form-control" placeholder="Username" required autofocus>
+        <input type="password" id="Password" name="Password" class="form-control" placeholder="Password" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    </form>
+</div>
+</body>
+</html>
